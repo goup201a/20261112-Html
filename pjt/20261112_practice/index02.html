@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form action="서버URI" method="post" name="signupform"></form>
+
+    ID: <input type="text" name="memID" placeholder="Input ID"> 
+    <br>
+    PW: <input type="password" name="memPW" placeholder="Input PW">
+    <br>
+    MAIL: <input type="text" name="memEmail" placeholder="Input Mail">
+    <br>
+    PHONE: <input type="text" name="memPhone" placeholder="Input PhoneNumber">
+    <br>
+    HOBBY:
+        축구: <input type="checkbox" name="memHobby" value="soccer">, &nbsp;
+        농구: <input type="checkbox" name="memHobby" value="basketball">, &nbsp;
+        야구: <input type="checkbox" name="memHobby" value="baseball">, &nbsp;
+        배구: <input type="checkbox" name="memHobby" value="valleyball">, &nbsp;
+        탁구: <input type="checkbox" name="memHobby" value="table tennis">, &nbsp;
+        <br>
+    성별:
+        남자: <input type="radio" name="memGender" value="male">
+        여자: <input type="radio" name="memGender" value="female">
+        <br>
+    국가:
+        <select name="memCountry">
+
+            <option value="KR">한국</option>
+            <option value="CH">중국</option>
+            <option value="JP">일본</option>
+            <option value="USA">미국</option>
+            <option value="UK">영국</option>
+
+        </select>
+        <br>
+    기타:
+        <textarea name="memEtc" placeholder="Input"></textarea>
+        <br>
+    <input type="submit" value="Signup">
+    <input type="reset" value="RESET">
+    <br>
+    <br>
+    <input type="button" value="QUIT">
+
+</body>
+</html>
